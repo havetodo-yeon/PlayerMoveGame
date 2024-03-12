@@ -10,6 +10,18 @@
         
     }
 
+    public struct KeyList
+    {
+        public KeyList(ConsoleKey newButton, ConsoleKey newAltButton)
+        {
+            button = newButton;
+            altButton = newAltButton;
+        }
+        public ConsoleKey button;
+        public ConsoleKey altButton;
+    }
+
+
     public static void Init()
     {
         //editor 설정

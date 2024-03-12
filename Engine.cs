@@ -19,6 +19,7 @@ class Engine
     {
         Input.Init();
     }
+
     public void LoadScene(string SceneName)
     {
         // data file 이 bin\Debug\net8.0에 있으면 이렇게 써도 됨 그러나 git으로 관리 못함
